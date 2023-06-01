@@ -1,0 +1,82 @@
+body{
+   color: #fff;
+   background-image: url(https://wallpaperaccess.com/full/1390995.jpg);
+}
+
+#game{
+   width: 400px;
+   background: #343436;
+   padding: 18px;
+   text-align: center;
+   margin: auto;
+   position: absolute;
+   transform: translate(95%, 80%);
+}
+
+h1{
+   margin: 0 0 18px 0;
+   border: solid 1px #fff;
+   padding: 5px;
+   font-weight: 400;
+}
+
+span{
+   font-size: 125%;
+   padding: 12px;
+}
+
+ #result{
+   width: 110px;
+}
+#result:focus{
+   border: none;
+} 
+
+#answer{
+   margin-top: 10px;
+   padding: 5px;
+   border: none;
+   width: 100px;
+   background: #565613;
+   color: #fff;
+   transition: 0.2s;
+}
+
+#answer:hover{
+   background: #0C5F17;
+   transform: scale(0.95);
+   transition: 0.2s;
+   cursor: pointer;
+}
+
+#True, #False{
+   font-size: 150%;
+   margin-top: 10px;
+   padding: 10px;
+   display: inline-block;
+}
+
+#True{
+   background: #1C9605;
+}
+
+#False{
+   background: #BD0C0C;
+}
+
+#clear-both{
+   clear: both;
+}
+
+
+
+@media only screen and (max-width: 400px){
+   body{
+      position: relative;
+   }
+   #game{
+      position: absolute;
+      right: 95%;
+      width: 90%;
+   }
+}
